@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Cave Treasure Hunt
+
+  Created by Banghua Zhao on 6/14/20.
+  Copyright © 2020 Banghua Zhao. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Cave Adventure";
+"NSUserTrackingUsageDescription" = "This identifier will be used to deliver personalized ads to you.";

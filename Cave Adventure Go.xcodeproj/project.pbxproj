@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62EA1374B051158166FC0BBC /* Pods_Cave_Adventure_Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA7121309A30DD4D2DCD599 /* Pods_Cave_Adventure_Go.framework */; };
+		99092EE125C6A43B00ABFFD2 /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99092EE025C6A43B00ABFFD2 /* Ads.swift */; };
+		99D115CC24415F2200D42795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D115CB24415F2200D42795 /* AppDelegate.swift */; };
+		99D115CE24415F2200D42795 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99D115CD24415F2200D42795 /* GameScene.sks */; };
+		99D115D224415F2200D42795 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D115D124415F2200D42795 /* GameScene.swift */; };
+		99D115D424415F2200D42795 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D115D324415F2200D42795 /* GameViewController.swift */; };
+		99D115D724415F2200D42795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D115D524415F2200D42795 /* Main.storyboard */; };
+		99D115D924415F2300D42795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D115D824415F2300D42795 /* Assets.xcassets */; };
+		99D115DC24415F2300D42795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D115DA24415F2300D42795 /* LaunchScreen.storyboard */; };
+		99E789C62495FD2B00AD463C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E789B52495FD2B00AD463C /* Constants.swift */; };
+		99E789C72495FD2B00AD463C /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E789B62495FD2B00AD463C /* Music.swift */; };
+		99E789D42495FD2B00AD463C /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E789C42495FD2B00AD463C /* Other.swift */; };
+		99E789D52495FD2B00AD463C /* StoreReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E789C52495FD2B00AD463C /* StoreReviewHelper.swift */; };
+		99E789DB2496008A00AD463C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E789DD2496008A00AD463C /* InfoPlist.strings */; };
+		99E789DE2496008D00AD463C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E789E02496008D00AD463C /* Localizable.strings */; };
+		99E789E72498479300AD463C /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99E789E62498479300AD463C /* background.mp3 */; };
+		99E789E92499012C00AD463C /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E789E82499012C00AD463C /* Int+Extensions.swift */; };
+		99E789EC24990B2E00AD463C /* Lava.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99E789EB24990B2E00AD463C /* Lava.sks */; };
+		99E789EE24991AC600AD463C /* FireSmokeTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99E789ED24991AC600AD463C /* FireSmokeTrail.sks */; };
+		99E789F0249A60DD00AD463C /* explosion3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99E789EF249A60DD00AD463C /* explosion3.wav */; };
+		99E789F2249A629B00AD463C /* player_die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99E789F1249A629B00AD463C /* player_die.wav */; };
+		99E789F4249A6B1800AD463C /* PlayerTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 99E789F3249A6B1800AD463C /* PlayerTrail.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37B48FA6D717984B56DC4905 /* Pods-Cave Adventure Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cave Adventure Go.release.xcconfig"; path = "Target Support Files/Pods-Cave Adventure Go/Pods-Cave Adventure Go.release.xcconfig"; sourceTree = "<group>"; };
+		4E646850271BDD3C1CBC2A03 /* Pods-Cave Treasure Hunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cave Treasure Hunt.debug.xcconfig"; path = "Target Support Files/Pods-Cave Treasure Hunt/Pods-Cave Treasure Hunt.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA7121309A30DD4D2DCD599 /* Pods_Cave_Adventure_Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cave_Adventure_Go.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D370E90BF6C8AC59CFA476 /* Pods-Cave Adventure Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cave Adventure Go.debug.xcconfig"; path = "Target Support Files/Pods-Cave Adventure Go/Pods-Cave Adventure Go.debug.xcconfig"; sourceTree = "<group>"; };
+		99092EE025C6A43B00ABFFD2 /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		99D115C824415F2200D42795 /* Cave Adventure Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cave Adventure Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D115CB24415F2200D42795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99D115CD24415F2200D42795 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		99D115D124415F2200D42795 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		99D115D324415F2200D42795 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		99D115D624415F2200D42795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D115D824415F2300D42795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D115DB24415F2300D42795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D115DD24415F2300D42795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E789B52495FD2B00AD463C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		99E789B62495FD2B00AD463C /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		99E789C42495FD2B00AD463C /* Other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		99E789C52495FD2B00AD463C /* StoreReviewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreReviewHelper.swift; sourceTree = "<group>"; };
+		99E789DC2496008A00AD463C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99E789DF2496008D00AD463C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99E789E12496009700AD463C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		99E789E22496009700AD463C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		99E789E3249600A000AD463C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		99E789E4249600A000AD463C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		99E789E62498479300AD463C /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		99E789E82499012C00AD463C /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		99E789EB24990B2E00AD463C /* Lava.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Lava.sks; sourceTree = "<group>"; };
+		99E789ED24991AC600AD463C /* FireSmokeTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireSmokeTrail.sks; sourceTree = "<group>"; };
+		99E789EF249A60DD00AD463C /* explosion3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion3.wav; sourceTree = "<group>"; };
+		99E789F1249A629B00AD463C /* player_die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = player_die.wav; sourceTree = "<group>"; };
+		99E789F3249A6B1800AD463C /* PlayerTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerTrail.sks; sourceTree = "<group>"; };
+		EAC3DDDDB8A7E6A0A43F2F87 /* Pods-Cave Treasure Hunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cave Treasure Hunt.release.xcconfig"; path = "Target Support Files/Pods-Cave Treasure Hunt/Pods-Cave Treasure Hunt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		999235562E2CA6EE00AE3AC9 /* Config */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Config; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99D115C524415F2200D42795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EA1374B051158166FC0BBC /* Pods_Cave_Adventure_Go.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B6FDB1F1C05ACD76BBF118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA7121309A30DD4D2DCD599 /* Pods_Cave_Adventure_Go.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37556DEFC2AFC7DA9F61CA88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E646850271BDD3C1CBC2A03 /* Pods-Cave Treasure Hunt.debug.xcconfig */,
+				EAC3DDDDB8A7E6A0A43F2F87 /* Pods-Cave Treasure Hunt.release.xcconfig */,
+				65D370E90BF6C8AC59CFA476 /* Pods-Cave Adventure Go.debug.xcconfig */,
+				37B48FA6D717984B56DC4905 /* Pods-Cave Adventure Go.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99D115BF24415F2200D42795 = {
+			isa = PBXGroup;
+			children = (
+				99D115CA24415F2200D42795 /* Cave Adventure Go */,
+				99D115C924415F2200D42795 /* Products */,
+				37556DEFC2AFC7DA9F61CA88 /* Pods */,
+				33B6FDB1F1C05ACD76BBF118 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99D115C924415F2200D42795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D115C824415F2200D42795 /* Cave Adventure Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99D115CA24415F2200D42795 /* Cave Adventure Go */ = {
+			isa = PBXGroup;
+			children = (
+				999235562E2CA6EE00AE3AC9 /* Config */,
+				99D115CB24415F2200D42795 /* AppDelegate.swift */,
+				99092EE025C6A43B00ABFFD2 /* Ads.swift */,
+				99D115D324415F2200D42795 /* GameViewController.swift */,
+				99E789EA24990AF800AD463C /* Particle */,
+				99E789E52498470200AD463C /* Music */,
+				99E789D62495FD3F00AD463C /* Scene */,
+				99E789B42495FD2B00AD463C /* Tools */,
+				99D115D524415F2200D42795 /* Main.storyboard */,
+				99D115D824415F2300D42795 /* Assets.xcassets */,
+				99D115DA24415F2300D42795 /* LaunchScreen.storyboard */,
+				99D115DD24415F2300D42795 /* Info.plist */,
+				99E789DD2496008A00AD463C /* InfoPlist.strings */,
+				99E789E02496008D00AD463C /* Localizable.strings */,
+			);
+			path = "Cave Adventure Go";
+			sourceTree = "<group>";
+		};
+		99E789B42495FD2B00AD463C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				99E789E82499012C00AD463C /* Int+Extensions.swift */,
+				99E789B52495FD2B00AD463C /* Constants.swift */,
+				99E789B62495FD2B00AD463C /* Music.swift */,
+				99E789C42495FD2B00AD463C /* Other.swift */,
+				99E789C52495FD2B00AD463C /* StoreReviewHelper.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		99E789D62495FD3F00AD463C /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				99D115CD24415F2200D42795 /* GameScene.sks */,
+				99D115D124415F2200D42795 /* GameScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		99E789E52498470200AD463C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				99E789E62498479300AD463C /* background.mp3 */,
+				99E789EF249A60DD00AD463C /* explosion3.wav */,
+				99E789F1249A629B00AD463C /* player_die.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		99E789EA24990AF800AD463C /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				99E789ED24991AC600AD463C /* FireSmokeTrail.sks */,
+				99E789F3249A6B1800AD463C /* PlayerTrail.sks */,
+				99E789EB24990B2E00AD463C /* Lava.sks */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99D115C724415F2200D42795 /* Cave Adventure Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D115E024415F2300D42795 /* Build configuration list for PBXNativeTarget "Cave Adventure Go" */;
+			buildPhases = (
+				434FB63BEBDF7A6D0A4728D6 /* [CP] Check Pods Manifest.lock */,
+				99D115C424415F2200D42795 /* Sources */,
+				99D115C524415F2200D42795 /* Frameworks */,
+				99D115C624415F2200D42795 /* Resources */,
+				A8F00574A28DAC766F090319 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				999235562E2CA6EE00AE3AC9 /* Config */,
+			);
+			name = "Cave Adventure Go";
+			productName = "Cave Treasure Hunt";
+			productReference = 99D115C824415F2200D42795 /* Cave Adventure Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99D115C024415F2200D42795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Banghua Zhao";
+				TargetAttributes = {
+					99D115C724415F2200D42795 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 99D115C324415F2200D42795 /* Build configuration list for PBXProject "Cave Adventure Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 99D115BF24415F2200D42795;
+			productRefGroup = 99D115C924415F2200D42795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99D115C724415F2200D42795 /* Cave Adventure Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99D115C624415F2200D42795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D115D724415F2200D42795 /* Main.storyboard in Resources */,
+				99E789DE2496008D00AD463C /* Localizable.strings in Resources */,
+				99E789E72498479300AD463C /* background.mp3 in Resources */,
+				99E789EC24990B2E00AD463C /* Lava.sks in Resources */,
+				99E789F0249A60DD00AD463C /* explosion3.wav in Resources */,
+				99D115CE24415F2200D42795 /* GameScene.sks in Resources */,
+				99D115D924415F2300D42795 /* Assets.xcassets in Resources */,
+				99E789F2249A629B00AD463C /* player_die.wav in Resources */,
+				99D115DC24415F2300D42795 /* LaunchScreen.storyboard in Resources */,
+				99E789DB2496008A00AD463C /* InfoPlist.strings in Resources */,
+				99E789EE24991AC600AD463C /* FireSmokeTrail.sks in Resources */,
+				99E789F4249A6B1800AD463C /* PlayerTrail.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		434FB63BEBDF7A6D0A4728D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cave Adventure Go-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F00574A28DAC766F090319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cave Adventure Go/Pods-Cave Adventure Go-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cave Adventure Go/Pods-Cave Adventure Go-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cave Adventure Go/Pods-Cave Adventure Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99D115C424415F2200D42795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99092EE125C6A43B00ABFFD2 /* Ads.swift in Sources */,
+				99E789C62495FD2B00AD463C /* Constants.swift in Sources */,
+				99D115D224415F2200D42795 /* GameScene.swift in Sources */,
+				99D115D424415F2200D42795 /* GameViewController.swift in Sources */,
+				99E789D42495FD2B00AD463C /* Other.swift in Sources */,
+				99E789D52495FD2B00AD463C /* StoreReviewHelper.swift in Sources */,
+				99E789E92499012C00AD463C /* Int+Extensions.swift in Sources */,
+				99D115CC24415F2200D42795 /* AppDelegate.swift in Sources */,
+				99E789C72495FD2B00AD463C /* Music.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99D115D524415F2200D42795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D115D624415F2200D42795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99D115DA24415F2300D42795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D115DB24415F2300D42795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99E789DD2496008A00AD463C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E789DC2496008A00AD463C /* en */,
+				99E789E12496009700AD463C /* zh-Hans */,
+				99E789E3249600A000AD463C /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99E789E02496008D00AD463C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E789DF2496008D00AD463C /* en */,
+				99E789E22496009700AD463C /* zh-Hans */,
+				99E789E4249600A000AD463C /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99D115DE24415F2300D42795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 999235562E2CA6EE00AE3AC9 /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99D115DF24415F2300D42795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 999235562E2CA6EE00AE3AC9 /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99D115E124415F2300D42795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D370E90BF6C8AC59CFA476 /* Pods-Cave Adventure Go.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.80;
+				DEVELOPMENT_TEAM = F694X76A5X;
+				INFOPLIST_FILE = "$(SRCROOT)/Cave Adventure Go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.8;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyButton\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Banghua-Zhao.Cave-Adventure-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99D115E224415F2300D42795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B48FA6D717984B56DC4905 /* Pods-Cave Adventure Go.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.80;
+				DEVELOPMENT_TEAM = F694X76A5X;
+				INFOPLIST_FILE = "$(SRCROOT)/Cave Adventure Go/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.8;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftyButton\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"Then\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Banghua-Zhao.Cave-Adventure-Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99D115C324415F2200D42795 /* Build configuration list for PBXProject "Cave Adventure Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D115DE24415F2300D42795 /* Debug */,
+				99D115DF24415F2300D42795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D115E024415F2300D42795 /* Build configuration list for PBXNativeTarget "Cave Adventure Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D115E124415F2300D42795 /* Debug */,
+				99D115E224415F2300D42795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99D115C024415F2200D42795 /* Project object */;
+}
