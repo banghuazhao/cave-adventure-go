@@ -5,7 +5,11 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)](https://www.apple.com/ios/)
 
+[![Download on the App Store](https://img.shields.io/badge/App%20Store-Download-blue?logo=apple)](https://apps.apple.com/us/app/can-you-hold-for-30-seconds/id1507501352)
+
 An exciting endless runner game where you navigate through treacherous cave passages, avoiding obstacles and collecting treasures. Built with SpriteKit for iOS.
+
+Also available on the [App Store](https://apps.apple.com/us/app/can-you-hold-for-30-seconds/id1507501352).
 
 ![Cave Adventure Go Screenshot](1.png)
 
